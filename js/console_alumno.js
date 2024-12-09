@@ -151,7 +151,7 @@ function Registrar_Alumno() {
     }).done(function(resp) {
         if (resp > 0) {
             if (resp == 1) {
-                Swal.fire("Mensaje de Confirmación", "Nueva Grado Registrado", "success").then((value) => {
+                Swal.fire("Mensaje de Confirmación", "Nueva Alumno Registrado", "success").then((value) => {
                     document.getElementById('dni').value = "";
                     document.getElementById('nombre_alumno').value = "";
                     document.getElementById('nombre_grado').value = "";
